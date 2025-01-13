@@ -1,7 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 colorscript random
 ZSH_THEME="arrow"
-zstyle ':omz:update'
+zstyle ':omz:update' disabled
 ENABLE_CORRECTION="true"
 
 plugins=(git)
