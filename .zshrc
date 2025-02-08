@@ -1,7 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 colorscript random
 ZSH_THEME="arrow"
-zstyle ':omz:update' disabled
+zstyle ':omz:update' mode disabled
 ENABLE_CORRECTION="true"
 
 plugins=(git)
@@ -12,6 +12,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias adb='~/Android/Sdk/platform-tools/adb'
 alias add='git add .'
 alias commit='git commit -m'
 alias push='git push'
